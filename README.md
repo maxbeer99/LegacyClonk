@@ -1,4 +1,4 @@
-# LegacyClonk
+# LegacyClonk Fork
 
 ![Logo](planet/Graphics.c4g/Logo.png)
 
