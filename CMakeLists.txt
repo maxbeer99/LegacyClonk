@@ -346,6 +346,9 @@ if (USE_TESTS)
 endif ()
 
 # Link CURL
+if (APPLE)
+	add_definitions(-DCURL_STATICLIB)
+endif ()
 find_package(CURL REQUIRED)
 target_link_libraries(clonk CURL::libcurl)
 
