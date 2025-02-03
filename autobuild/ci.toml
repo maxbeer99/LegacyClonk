@@ -1,11 +1,11 @@
 [groups.'System.c4g']
 parts = [
-    'v360',
+    'v360_1',
 ]
 
 [groups.'Graphics.c4g']
 parts = [
-    'v360',
+    'v360_1',
 ]
 
 [groups.content]
