@@ -350,7 +350,7 @@ if (APPLE)
 	add_definitions(-DCURL_STATICLIB)
 endif ()
 find_package(CURL REQUIRED)
-target_link_libraries(clonk CURL::libcurl)
+target_link_libraries(clonk CURL::libcurl.a)
 
 # Link fmt
 find_package(fmt REQUIRED)
